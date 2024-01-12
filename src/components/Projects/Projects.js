@@ -10,13 +10,14 @@ function Projects() {
       <Container>
         <h1 className="project-heading">My Recent Works</h1>
         <p style={{ color: "white" }}>
-          Here is the short drama we have done for module "Digital Art".
+          Here is the short drama we have done for module "Introduction to
+          Digital Art".
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={7} className="project-card">
             <ProjectCard
               youtubeVideoId="O9uhekenxj0"
-              title="EF524 - Digital Art - Short Drama"
+              title="EF528 - Introduction to Digital Art - Short Drama"
             />
           </Col>
         </Row>
