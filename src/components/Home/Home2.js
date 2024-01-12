@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/dp.jpeg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -13,9 +11,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+            <h1 style={{ fontSize: "2.6em" }}>LET ME INTRODUCE MYSELF</h1>
             <p className="home-about-body">
               I am a driven and detail-oriented Computer Engineering
               undergraduate at the University of Peradeniya, with a keen
@@ -31,20 +27,23 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid rounded-circle"
+                alt="avatar"
+                style={{ width: "300px", height: "400px" }}
+              />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to connect with me
-            </p>
+            <p>Feel free to connect with me</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Prageeth-Dananjaya"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -54,7 +53,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/prageeth-wickramaarachchi-716506279/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
